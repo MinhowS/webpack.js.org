@@ -233,7 +233,7 @@ const path = require('path');
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: 'bundle.js',
+    filename: 'main.js',
     path: path.resolve(__dirname, 'dist')
   }
 };
@@ -332,7 +332,7 @@ webpack-demo
 |- package.json
 |- webpack.config.js
 |- /dist
-  |- bundle.js
+  |- main.js
   |- index.html
 |- /src
   |- index.js
